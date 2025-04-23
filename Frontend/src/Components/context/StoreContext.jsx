@@ -106,7 +106,7 @@ const StoreContextProvider = ({ children }) => {
   const [cartItems, setCartItems] = useState({});
   const [token, setToken] = useState(localStorage.getItem("token") || "");
   const [food_list, setFoodList] = useState([]);
-  const url = "http://localhost:4000";
+  const url = "https://delidish.onrender.com";
 
   // Function to add items to cart
   const addToCart = async (itemId) => {
